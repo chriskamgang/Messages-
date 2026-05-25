@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-service",
+  "version": "1.0.0",
+  "description": "Baileys WhatsApp microservice for Estuaire Emploie",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.3.2",
+    "pino-pretty": "^11.2.1",
+    "qrcode": "^1.5.4"
+  }
+}
